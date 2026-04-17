@@ -1,0 +1,1223 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery – YatraWheels | Car Rental & Hotel Services</title>
+    <link rel="icon" type="image/x-icon" href="../favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=DM+Sans:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../assets/css/global.css" />
+    <link rel="stylesheet" href="../assets/css/gallery.css" />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav id="navbar">
+      <div class="container">
+        <div class="nav-inner">
+          <a href="../index.html" class="logo">
+            <img
+              src="../assets/images/logo/logo.png"
+              alt="Website Logo"
+              class="logo-img"
+            />
+          </a>
+          <ul class="nav-links">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="cars.html">Our Cars</a></li>
+            <li><a href="hotels.html">Hotels</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="gallery.html" class="active">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+          <div class="nav-cta">
+            <a href="tel:+7029884993" class="btn btn-outline"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                style="vertical-align: middle; margin-right: 6px"
+              >
+                <path
+                  d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"
+                />
+              </svg>
+              Call Now</a
+            >
+            <a href="https://wa.me/7029884993" class="btn btn-whatsapp"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                style="vertical-align: middle; margin-right: 6px"
+              >
+                <path
+                  d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"
+                />
+              </svg>
+              WhatsApp</a
+            >
+          </div>
+          <button
+            class="hamburger"
+            id="hamburger"
+            aria-label="Toggle menu"
+            aria-expanded="false"
+            aria-controls="mobileMenu"
+          >
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+        <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+          <a href="../index.html"> Home</a>
+          <a href="about.html"> About</a>
+          <a href="cars.html"> Our Cars</a>
+          <a href="hotels.html"> Hotels</a>
+          <a href="services.html"> Services</a>
+          <a href="gallery.html" class="active"> Gallery</a>
+          <a href="contact.html"> Contact</a>
+          <div class="mobile-menu-cta">
+            <a href="tel:+7029884993" class="btn btn-primary"
+              ><svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                fill="none"
+                stroke-width="2"
+              >
+                <path
+                  d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"
+                />
+              </svg>
+              Call Now</a
+            >
+            <a href="https://wa.me/7029884993" class="btn btn-whatsapp"
+              ><svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                fill="none"
+                stroke-width="2"
+              >
+                <path
+                  d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"
+                />
+              </svg>
+              WhatsApp</a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- PAGE BANNER -->
+    <section id="page-banner">
+      <div class="banner-bg-pattern"></div>
+      <div class="banner-circle banner-circle-1"></div>
+      <div class="banner-circle banner-circle-2"></div>
+      <div class="banner-circle banner-circle-3"></div>
+      <div class="container">
+        <div class="banner-content">
+          <div class="hero-badge">Moments Worth Remembering</div>
+          <h1 class="hero-title">Our <span class="highlight">Gallery</span></h1>
+          <p class="hero-desc">
+            A visual journey through our fleet, partner hotels, and the
+            breathtaking destinations we serve across West Bengal and beyond.
+          </p>
+          <div class="hero-btns">
+            <a
+              href="cars.html"
+              class="btn btn-primary"
+              style="font-size: 1rem; padding: 14px 28px"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9L18 10l-2-4H6L4 10l-2.5 1.1C.7 11.3 0 12.1 0 13v3c0 .6.4 1 1 1h2"
+                />
+                <circle cx="7" cy="17" r="2" />
+                <circle cx="17" cy="17" r="2" />
+              </svg>
+              View Cars</a
+            >
+            <a
+              href="hotels.html"
+              class="btn btn-whatsapp"
+              style="font-size: 1rem; padding: 14px 28px"
+              ><svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path d="M3 21h18" />
+                <path d="M5 21V7l8-4 8 4v14" />
+                <path d="M9 21v-6h6v6" />
+              </svg>
+              View Hotels</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="breadcrumb-bar">
+        <div class="container">
+          <span><a href="../index.html">Home</a></span>
+          <span class="bc-sep">›</span>
+          <span class="bc-current">Gallery</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALLERY FILTER NAV -->
+    <section id="gallery-filter-nav">
+      <div class="container">
+        <div class="filter-tabs" role="tablist">
+          <button
+            class="filter-tab active"
+            data-filter="all"
+            role="tab"
+            aria-selected="true"
+          >
+            <svg
+              width="12"
+              height="12"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              fill="none"
+              stroke-width="2"
+            >
+              <rect x="3" y="3" width="7" height="7" />
+              <rect x="14" y="3" width="7" height="7" />
+              <rect x="14" y="14" width="7" height="7" />
+              <rect x="3" y="14" width="7" height="7" />
+            </svg>
+            All Photos
+          </button>
+          <button
+            class="filter-tab"
+            data-filter="cars"
+            role="tab"
+            aria-selected="false"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="12"
+              height="12"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path
+                d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9L18 10l-2-4H6L4 10l-2.5 1.1C.7 11.3 0 12.1 0 13v3c0 .6.4 1 1 1h2"
+              />
+              <circle cx="7" cy="17" r="2" />
+              <circle cx="17" cy="17" r="2" />
+            </svg>
+            Cars
+          </button>
+          <button
+            class="filter-tab"
+            data-filter="hotels"
+            role="tab"
+            aria-selected="false"
+          >
+            <svg
+              width="12"
+              height="12"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path d="M3 21h18" />
+              <path d="M5 21V7l8-4 8 4v14" />
+              <path d="M9 21v-6h6v6" />
+            </svg>
+            Hotels
+          </button>
+          <button
+            class="filter-tab"
+            data-filter="travel"
+            role="tab"
+            aria-selected="false"
+          >
+            <svg
+              width="12"
+              height="12"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              fill="none"
+              stroke-width="2"
+            >
+              <polygon points="1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6" />
+              <line x1="8" y1="2" x2="8" y2="18" />
+              <line x1="16" y1="6" x2="16" y2="22" />
+            </svg>
+            Travel
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALLERY GRID -->
+    <section id="gallery-section">
+      <div class="container">
+        <div class="gallery-intro section-header">
+          <div class="accent-line"></div>
+          <h2 class="section-title">
+            Explore Our
+            <span style="color: var(--saffron)">Visual Stories</span>
+          </h2>
+          <p class="section-subtitle">
+            Click any photo to view it in full — and get a glimpse of the
+            journeys we make possible.
+          </p>
+        </div>
+
+        <div class="gallery-grid" id="galleryGrid">
+          <!-- CARS -->
+          <div
+            class="gallery-item"
+            data-category="cars"
+            data-title="Swift Dzire — Compact Sedan"
+            data-label="Cars"
+          >
+            <img
+              src="../assets/images/cars/dzire.png"
+              alt="Swift Dzire Compact Sedan"
+              loading="lazy"
+            />
+            <div class="gallery-item-overlay">
+              <span class="gallery-item-label">Cars</span>
+              <div class="gallery-item-title">Swift Dzire — Compact Sedan</div>
+            </div>
+            <div class="gallery-zoom-icon">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                fill="none"
+                stroke-width="2"
+              >
+                <circle cx="11" cy="11" r="8" />
+                <line x1="21" y1="21" x2="16.65" y2="16.65" />
+              </svg>
+            </div>
+          </div>
+
+          <div
+            class="gallery-item"
+            data-category="hotels"
+            data-title="Lemon Tree Hotel — Darjeeling"
+            data-label="Hotels"
+          >
+            <img
+              src="../assets/images/hotels/lemon-tree.png"
+              alt="Lemon Tree Hotel Darjeeling"
+              loading="lazy"
+            />
+            <div class="gallery-item-overlay">
+              <span class="gallery-item-label">Hotels</span>
+              <div class="gallery-item-title">
+                Lemon Tree Hotel — Darjeeling
+              </div>
+            </div>
+            <div class="gallery-zoom-icon">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                fill="none"
+                stroke-width="2"
+              >
+                <circle cx="11" cy="11" r="8" />
+                <line x1="21" y1="21" x2="16.65" y2="16.65" />
+              </svg>
+            </div>
+          </div>
+
+          <div
+            class="gallery-item"
+            data-category="travel"
+            data-title="Tiger Hill Sunrise — Darjeeling"
+            data-label="Travel"
+          >
+            <img
+              src="https://placehold.co/400x260/102335/e8682a?text=Tiger+Hill+Sunrise"
+              alt="Tiger Hill Sunrise Darjeeling"
+              loading="lazy"
+            />
+            <div class="gallery-item-overlay">
+              <span class="gallery-item-label">Travel</span>
+              <div class="gallery-item-title">
+                Tiger Hill Sunrise — Darjeeling
+              </div>
+            </div>
+            <div class="gallery-zoom-icon">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                fill="none"
+                stroke-width="2"
+              >
+                <circle cx="11" cy="11" r="8" />
+                <line x1="21" y1="21" x2="16.65" y2="16.65" />
+              </svg>
+            </div>
+          </div>
+
+          <div
+            class="gallery-item"
+            data-category="cars"
+            data-title="Toyota Innova Crysta — Premium MPV"
+            data-label="Cars"
+          >
+            <img
+              src="../assets/images/cars/innova.png"
+              alt="Toyota Innova Crysta"
+              loading="lazy"
+            />
+            <div class="gallery-item-overlay">
+              <span class="gallery-item-label">Cars</span>
+              <div class="gallery-item-title">
+                Toyota Innova Crysta — Premium MPV
+              </div>
+            </div>
+            <div class="gallery-zoom-icon">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                fill="none"
+                stroke-width="2"
+              >
+                <circle cx="11" cy="11" r="8" />
+                <line x1="21" y1="21" x2="16.65" y2="16.65" />
+              </svg>
+            </div>
+          </div>
+
+          <div
+            class="gallery-item"
+            data-category="travel"
+            data-title="Sundarbans Mangroves — Delta Tour"
+            data-label="Travel"
+          >
+            <img
+              src="https://placehold.co/400x380/1a2d1a/4a9a4a?text=Sundarbans+Delta"
+              alt="Sundarbans Mangroves"
+              loading="lazy"
+            />
+            <div class="gallery-item-overlay">
+              <span class="gallery-item-label">Travel</span>
+              <div class="gallery-item-title">
+                Sundarbans Mangroves — Delta Tour
+              </div>
+            </div>
+            <div class="gallery-zoom-icon">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                fill="none"
+                stroke-width="2"
+              >
+                <circle cx="11" cy="11" r="8" />
+                <line x1="21" y1="21" x2="16.65" y2="16.65" />
+              </svg>
+            </div>
+          </div>
+
+          <div
+            class="gallery-item"
+            data-category="hotels"
+            data-title="Ramada Hotel — Gangtok"
+            data-label="Hotels"
+          >
+            <img
+              src="../assets/images/hotels/ramada.png"
+              alt="Ramada Hotel Gangtok"
+              loading="lazy"
+            />
+            <div class="gallery-item-overlay">
+              <span class="gallery-item-label">Hotels</span>
+              <div class="gallery-item-title">Ramada Hotel — Gangtok</div>
+            </div>
+            <div class="gallery-zoom-icon">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                fill="none"
+                stroke-width="2"
+              >
+                <circle cx="11" cy="11" r="8" />
+                <line x1="21" y1="21" x2="16.65" y2="16.65" />
+              </svg>
+            </div>
+          </div>
+
+          <div
+            class="gallery-item"
+            data-category="cars"
+            data-title="Tempo Traveller — Group Tours"
+            data-label="Cars"
+          >
+            <img
+              src="../assets/images/cars/tempo-traveller.png"
+              alt="Tempo Traveller Group Tours"
+              loading="lazy"
+            />
+            <div class="gallery-item-overlay">
+              <span class="gallery-item-label">Cars</span>
+              <div class="gallery-item-title">
+                Tempo Traveller — Group Tours
+              </div>
+            </div>
+            <div class="gallery-zoom-icon">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                fill="none"
+                stroke-width="2"
+              >
+                <circle cx="11" cy="11" r="8" />
+                <line x1="21" y1="21" x2="16.65" y2="16.65" />
+              </svg>
+            </div>
+          </div>
+
+          <div
+            class="gallery-item"
+            data-category="travel"
+            data-title="Dooars Forest Safari — Jaldapara"
+            data-label="Travel"
+          >
+            <img
+              src="https://placehold.co/400x350/142814/50a050?text=Dooars+Safari"
+              alt="Dooars Forest Safari"
+              loading="lazy"
+            />
+            <div class="gallery-item-overlay">
+              <span class="gallery-item-label">Travel</span>
+              <div class="gallery-item-title">
+                Dooars Forest Safari — Jaldapara
+              </div>
+            </div>
+            <div class="gallery-zoom-icon">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                fill="none"
+                stroke-width="2"
+              >
+                <circle cx="11" cy="11" r="8" />
+                <line x1="21" y1="21" x2="16.65" y2="16.65" />
+              </svg>
+            </div>
+          </div>
+
+          <div
+            class="gallery-item"
+            data-category="hotels"
+            data-title="Sterling Resort — Darjeeling"
+            data-label="Hotels"
+          >
+            <img
+              src="../assets/images/hotels/sterling.png"
+              alt="Sterling Resort Darjeeling"
+              loading="lazy"
+            />
+            <div class="gallery-item-overlay">
+              <span class="gallery-item-label">Hotels</span>
+              <div class="gallery-item-title">Sterling Resort — Darjeeling</div>
+            </div>
+            <div class="gallery-zoom-icon">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                fill="none"
+                stroke-width="2"
+              >
+                <circle cx="11" cy="11" r="8" />
+                <line x1="21" y1="21" x2="16.65" y2="16.65" />
+              </svg>
+            </div>
+          </div>
+
+          <div
+            class="gallery-item"
+            data-category="cars"
+            data-title="Honda City — Executive Sedan"
+            data-label="Cars"
+          >
+            <img
+              src="../assets/images/cars/swift.png"
+              alt="Honda City Executive Sedan"
+              loading="lazy"
+            />
+            <div class="gallery-item-overlay">
+              <span class="gallery-item-label">Cars</span>
+              <div class="gallery-item-title">Honda City — Executive Sedan</div>
+            </div>
+            <div class="gallery-zoom-icon">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                fill="none"
+                stroke-width="2"
+              >
+                <circle cx="11" cy="11" r="8" />
+                <line x1="21" y1="21" x2="16.65" y2="16.65" />
+              </svg>
+            </div>
+          </div>
+
+          <div
+            class="gallery-item"
+            data-category="travel"
+            data-title="Digha Beach — Sunset Drive"
+            data-label="Travel"
+          >
+            <img
+              src="https://placehold.co/400x320/2d1a0e/e87830?text=Digha+Beach+Sunset"
+              alt="Digha Beach Sunset"
+              loading="lazy"
+            />
+            <div class="gallery-item-overlay">
+              <span class="gallery-item-label">Travel</span>
+              <div class="gallery-item-title">Digha Beach — Sunset Drive</div>
+            </div>
+            <div class="gallery-zoom-icon">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                fill="none"
+                stroke-width="2"
+              >
+                <circle cx="11" cy="11" r="8" />
+                <line x1="21" y1="21" x2="16.65" y2="16.65" />
+              </svg>
+            </div>
+          </div>
+
+          <div
+            class="gallery-item"
+            data-category="hotels"
+            data-title="Sumitel Hotel — Darjeeling"
+            data-label="Hotels"
+          >
+            <img
+              src="../assets/images/hotels/sumitel-darjeeling.png"
+              alt="Sumitel Hotel Darjeeling"
+              loading="lazy"
+            />
+            <div class="gallery-item-overlay">
+              <span class="gallery-item-label">Hotels</span>
+              <div class="gallery-item-title">Sumitel Hotel — Darjeeling</div>
+            </div>
+            <div class="gallery-zoom-icon">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                fill="none"
+                stroke-width="2"
+              >
+                <circle cx="11" cy="11" r="8" />
+                <line x1="21" y1="21" x2="16.65" y2="16.65" />
+              </svg>
+            </div>
+          </div>
+
+          <div
+            class="gallery-item"
+            data-category="cars"
+            data-title="Mahindra Bolero — Offroad Ready"
+            data-label="Cars"
+          >
+            <img
+              src="../assets/images/cars/bolero.png"
+              alt="Mahindra Bolero Offroad"
+              loading="lazy"
+            />
+            <div class="gallery-item-overlay">
+              <span class="gallery-item-label">Cars</span>
+              <div class="gallery-item-title">
+                Mahindra Bolero — Offroad Ready
+              </div>
+            </div>
+            <div class="gallery-zoom-icon">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                fill="none"
+                stroke-width="2"
+              >
+                <circle cx="11" cy="11" r="8" />
+                <line x1="21" y1="21" x2="16.65" y2="16.65" />
+              </svg>
+            </div>
+          </div>
+
+          <div
+            class="gallery-item"
+            data-category="travel"
+            data-title="Kalimpong Valley — Hill Drive"
+            data-label="Travel"
+          >
+            <img
+              src="https://placehold.co/400x270/0d1a2a/4080c0?text=Kalimpong+Valley"
+              alt="Kalimpong Valley Hill Drive"
+              loading="lazy"
+            />
+            <div class="gallery-item-overlay">
+              <span class="gallery-item-label">Travel</span>
+              <div class="gallery-item-title">
+                Kalimpong Valley — Hill Drive
+              </div>
+            </div>
+            <div class="gallery-zoom-icon">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                fill="none"
+                stroke-width="2"
+              >
+                <circle cx="11" cy="11" r="8" />
+                <line x1="21" y1="21" x2="16.65" y2="16.65" />
+              </svg>
+            </div>
+          </div>
+
+          <div
+            class="gallery-item"
+            data-category="hotels"
+            data-title="Hotel Mountain Nest — Darjeeling"
+            data-label="Hotels"
+          >
+            <img
+              src="https://placehold.co/400x310/1a2030/5060a0?text=Mountain+Nest"
+              alt="Hotel Mountain Nest Darjeeling"
+              loading="lazy"
+            />
+            <div class="gallery-item-overlay">
+              <span class="gallery-item-label">Hotels</span>
+              <div class="gallery-item-title">
+                Hotel Mountain Nest — Darjeeling
+              </div>
+            </div>
+            <div class="gallery-zoom-icon">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                fill="none"
+                stroke-width="2"
+              >
+                <circle cx="11" cy="11" r="8" />
+                <line x1="21" y1="21" x2="16.65" y2="16.65" />
+              </svg>
+            </div>
+          </div>
+
+          <div
+            class="gallery-item"
+            data-category="travel"
+            data-title="Mandarmani Coastline — Coastal Trip"
+            data-label="Travel"
+          >
+            <img
+              src="https://placehold.co/400x290/1a2830/4090b0?text=Mandarmani+Coast"
+              alt="Mandarmani Coastline"
+              loading="lazy"
+            />
+            <div class="gallery-item-overlay">
+              <span class="gallery-item-label">Travel</span>
+              <div class="gallery-item-title">
+                Mandarmani Coastline — Coastal Trip
+              </div>
+            </div>
+            <div class="gallery-zoom-icon">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                fill="none"
+                stroke-width="2"
+              >
+                <circle cx="11" cy="11" r="8" />
+                <line x1="21" y1="21" x2="16.65" y2="16.65" />
+              </svg>
+            </div>
+          </div>
+        </div>
+        <!-- /gallery-grid -->
+
+        <!-- Empty state (shown via JS when filter has no results) -->
+        <div class="gallery-empty" id="galleryEmpty">
+          <div class="empty-icon">
+            <svg
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              fill="none"
+              stroke-width="2"
+            >
+              <circle cx="12" cy="12" r="10" />
+              <line x1="12" y1="8" x2="12" y2="12" />
+              <line x1="12" y1="16" x2="12.01" y2="16" />
+            </svg>
+          </div>
+          <p>No photos in this category yet. Check back soon!</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA STRIP -->
+    <section id="gallery-cta">
+      <div class="container">
+        <div class="cta-strip">
+          <div class="cta-strip-text">
+            <h3>Plan Your Next Journey With Us</h3>
+            <p>
+              From mountain drives to beach getaways — call or WhatsApp to book
+              your perfect trip with experienced drivers and handpicked hotels.
+            </p>
+          </div>
+          <div class="cta-strip-btns">
+            <a href="tel:+7029884993" class="btn btn-primary"
+              ><svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                fill="none"
+                stroke-width="2"
+              >
+                <path
+                  d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"
+                />
+              </svg>
+              Call to Book</a
+            >
+            <a href="https://wa.me/7029884993" class="btn btn-whatsapp"
+              ><svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                fill="none"
+                stroke-width="2"
+              >
+                <path
+                  d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"
+                />
+              </svg>
+              WhatsApp Us</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================
+      FOOTER
+    ======================== -->
+    <footer id="footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div>
+            <div class="logo footer-logo-wrap" style="margin-bottom: 14px">
+              <img
+                src="../assets/images/logo/logo.png"
+                alt="Website Logo"
+                class="logo-img"
+              />
+            </div>
+            <p class="footer-tagline">
+              Your trusted travel partner for local and outstation journeys
+              across India. Affordable cars, experienced drivers, handpicked
+              hotels.
+            </p>
+            <div class="footer-social">
+              <a href="#" title="Facebook"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path
+                    d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"
+                  /></svg
+              ></a>
+              <a href="#" title="Instagram"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                  <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" /></svg
+              ></a>
+              <a href="#" title="YouTube"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path
+                    d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"
+                  />
+                  <polygon
+                    points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"
+                  /></svg
+              ></a>
+              <a href="https://wa.me/7029884993" title="WhatsApp"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path
+                    d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"
+                  /></svg
+              ></a>
+            </div>
+          </div>
+
+          <div>
+            <div class="footer-col-title">Quick Links</div>
+            <ul class="footer-links">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="./about.html">About Us</a></li>
+              <li><a href="./cars.html">Our Cars</a></li>
+              <li><a href="./hotels.html">Hotels</a></li>
+              <li><a href="./services.html">Services</a></li>
+              <li><a href="./gallery.html">Gallery</a></li>
+              <li><a href="./contact.html">Contact</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="footer-col-title">Our Services</div>
+            <ul class="footer-links">
+              <li><a href="#">Local Car Rental</a></li>
+              <li><a href="#">Outstation Travel</a></li>
+              <li><a href="#">Airport Pickup</a></li>
+              <li><a href="#">Tempo Traveller</a></li>
+              <li><a href="#">Hotel Assistance</a></li>
+              <li><a href="#">Tour Packages</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="footer-col-title">Contact</div>
+            <ul class="footer-links">
+              <li>
+                <a href="tel:+7029884993"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="14"
+                    height="14"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    style="vertical-align: middle; margin-right: 6px"
+                  >
+                    <path
+                      d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"
+                    /></svg
+                  >+91 70298 84993</a
+                >
+              </li>
+              <li>
+                <a href="https://wa.me/7029884993"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="14"
+                    height="14"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    style="vertical-align: middle; margin-right: 6px"
+                  >
+                    <path
+                      d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"
+                    /></svg
+                  >WhatsApp Us</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="14"
+                    height="14"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    style="vertical-align: middle; margin-right: 6px"
+                  >
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                    <circle cx="12" cy="10" r="3" /></svg
+                  >Dabgram, Siliguri, West Bengal 734006</a
+                >
+              </li>
+              <li>
+                <a href="mailto:deyd983@gmail.com"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="14"
+                    height="14"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    style="vertical-align: middle; margin-right: 6px"
+                  >
+                    <path
+                      d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+                    />
+                    <polyline points="22,6 12,13 2,6" /></svg
+                  >deyd983@gmail.com</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <div>© 2025 <span>YatraWheels</span>. All rights reserved.</div>
+          <div>
+            Made with
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="14"
+              height="14"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              style="vertical-align: middle"
+            >
+              <path
+                d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"
+              />
+            </svg>
+            for Indian travelers
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- FLOATING BUTTONS -->
+    <a
+      href="https://wa.me/7029884993"
+      class="float-btn float-whatsapp"
+      title="WhatsApp Us"
+      target="_blank"
+      rel="noopener"
+    >
+      <svg
+        width="20"
+        height="20"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+        fill="none"
+        stroke-width="2"
+      >
+        <path
+          d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"
+        /></svg
+      ><span class="tooltip">WhatsApp Us</span>
+    </a>
+    <a href="tel:+7029884993" class="float-btn float-call" title="Call Now">
+      <svg
+        width="20"
+        height="20"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+        fill="none"
+        stroke-width="2"
+      >
+        <path
+          d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"
+        /></svg
+      ><span class="tooltip">Call Now</span>
+    </a>
+    <button
+      id="scrollTop"
+      title="Back to top"
+      onclick="window.scrollTo({ top: 0, behavior: 'smooth' })"
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="20"
+        height="20"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+        <polyline points="18 15 12 9 6 15" />
+      </svg>
+    </button>
+
+    <!-- LIGHTBOX -->
+    <div
+      id="lightbox"
+      role="dialog"
+      aria-modal="true"
+      aria-label="Image viewer"
+    >
+      <button id="lightbox-close" aria-label="Close lightbox">
+        <svg
+          width="20"
+          height="20"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+          fill="none"
+          stroke-width="2"
+        >
+          <line x1="18" y1="6" x2="6" y2="18" />
+          <line x1="6" y1="6" x2="18" y2="18" />
+        </svg>
+      </button>
+      <button
+        class="lightbox-nav"
+        id="lightbox-prev"
+        aria-label="Previous image"
+      >
+        <svg
+          width="20"
+          height="20"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+          fill="none"
+          stroke-width="2"
+        >
+          <polyline points="15 18 9 12 15 6" />
+        </svg>
+      </button>
+      <div class="lightbox-inner">
+        <img id="lightbox-img" src="" alt="" />
+        <div class="lightbox-caption">
+          <strong id="lightbox-title"></strong>
+          <span id="lightbox-label"></span>
+        </div>
+      </div>
+      <button class="lightbox-nav" id="lightbox-next" aria-label="Next image">
+        <svg
+          width="20"
+          height="20"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+          fill="none"
+          stroke-width="2"
+        >
+          <polyline points="9 18 15 12 9 6" />
+        </svg>
+      </button>
+    </div>
+
+    <script src="../assets/js/global.js"></script>
+    <script src="../assets/js/gallery.js"></script>
+  </body>
+</html>

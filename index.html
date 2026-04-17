@@ -1,0 +1,2042 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YatraWheels – Car Rental & Hotel Services</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=DM+Sans:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/global.css" />
+    <link rel="stylesheet" href="assets/css/home.css" />
+  </head>
+  <body>
+    <!-- ========================
+     NAVBAR
+======================== -->
+    <nav id="navbar">
+      <div class="container">
+        <div class="nav-inner">
+          <!-- Logo -->
+          <a href="#" class="logo">
+            <img
+              src="assets/images/logo/logo.png"
+              alt="Website Logo"
+              class="logo-img"
+            />
+          </a>
+
+          <!-- Desktop Nav Links -->
+          <ul class="nav-links">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="pages/about.html">About</a></li>
+            <li><a href="pages/cars.html">Our Cars</a></li>
+            <li><a href="pages/hotels.html">Hotels</a></li>
+            <li><a href="pages/services.html">Services</a></li>
+            <li><a href="pages/gallery.html">Gallery</a></li>
+            <li><a href="pages/contact.html">Contact</a></li>
+          </ul>
+
+          <!-- Desktop CTA -->
+          <div class="nav-cta">
+            <a href="tel:+7029884993" class="btn btn-outline">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                style="vertical-align: middle; margin-right: 6px"
+              >
+                <path
+                  d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"
+                /></svg
+              >Call Now
+            </a>
+            <a href="https://wa.me/7029884993" class="btn btn-whatsapp"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                style="vertical-align: middle; margin-right: 6px"
+              >
+                <path
+                  d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"
+                /></svg
+              >WhatsApp</a
+            >
+          </div>
+
+          <!-- Hamburger -->
+          <button
+            class="hamburger"
+            id="hamburger"
+            aria-label="Toggle menu"
+            aria-expanded="false"
+            aria-controls="mobileMenu"
+          >
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+          <a href="#" class="active">Home</a>
+          <a href="pages/about.html">About</a>
+          <a href="pages/cars.html">Our Cars</a>
+          <a href="pages/hotels.html">Hotels</a>
+          <a href="pages/services.html">Services</a>
+          <a href="pages/gallery.html">Gallery</a>
+          <a href="pages/contact.html">Contact</a>
+          <div class="mobile-menu-cta">
+            <a href="tel:+7029884993" class="btn btn-primary"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                style="vertical-align: middle; margin-right: 6px"
+              >
+                <path
+                  d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"
+                /></svg
+              >Call Now</a
+            >
+            <a href="https://wa.me/7029884993" class="btn btn-whatsapp"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                style="vertical-align: middle; margin-right: 6px"
+              >
+                <path
+                  d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"
+                /></svg
+              >WhatsApp</a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ========================
+     HERO SECTION
+======================= -->
+    <section id="hero">
+      <div class="hero-bg-pattern"></div>
+      <div class="hero-circle hero-circle-1"></div>
+      <div class="hero-circle hero-circle-2"></div>
+      <div class="hero-circle hero-circle-3"></div>
+
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-badge">Trusted Local Car Rental Service</div>
+          <h1 class="hero-title">
+            Travel Comfortably
+            <span class="highlight">Across India</span>
+            With Us
+          </h1>
+          <p class="hero-desc">
+            Affordable local and outstation car rentals, tempo traveller
+            services, and handpicked hotel recommendations — all at your
+            fingertips. Just call or WhatsApp to book!
+          </p>
+          <div class="hero-btns">
+            <a
+              href="tel:+7029884993"
+              class="btn btn-primary"
+              style="font-size: 1rem; padding: 14px 28px"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                style="vertical-align: middle; margin-right: 6px"
+              >
+                <path
+                  d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"
+                /></svg
+              >Call to Book
+            </a>
+            <a
+              href="https://wa.me/7029884993"
+              class="btn btn-whatsapp"
+              style="font-size: 1rem; padding: 14px 28px"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                style="vertical-align: middle; margin-right: 6px"
+              >
+                <path
+                  d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"
+                /></svg
+              >WhatsApp Us
+            </a>
+          </div>
+
+          <div class="hero-stats">
+            <div class="hero-stat">
+              <div class="hero-stat-num">500+</div>
+              <div class="hero-stat-label">Happy Customers</div>
+            </div>
+            <div class="hero-stat">
+              <div class="hero-stat-num">15+</div>
+              <div class="hero-stat-label">Cars Available</div>
+            </div>
+            <div class="hero-stat">
+              <div class="hero-stat-num">8+</div>
+              <div class="hero-stat-label">Years Experience</div>
+            </div>
+            <div class="hero-stat">
+              <div class="hero-stat-num">24/7</div>
+              <div class="hero-stat-label">Support</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="lottie-placeholder">
+        <!-- Add car travel animation here later -->
+      </div>
+    </section>
+
+    <!-- ========================
+     CAR CATEGORIES
+======================== -->
+    <section id="car-categories">
+      <div class="container">
+        <div class="section-header">
+          <div class="accent-line"></div>
+          <h2 class="section-title">Our Car Categories</h2>
+          <p class="section-subtitle">
+            Choose the right vehicle for your journey
+          </p>
+        </div>
+
+        <div class="categories-grid">
+          <div class="cat-card">
+            <div class="cat-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="32"
+                height="32"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="M7 17H2" />
+                <path d="M17 17h5" />
+                <path d="M21 17V11l-3-4H6L2 11v6h2" />
+                <circle cx="7" cy="17" r="2" />
+                <circle cx="17" cy="17" r="2" />
+                <path d="M6 8h9l2 3H2L6 8Z" />
+              </svg>
+            </div>
+            <div class="cat-name">Hatchback</div>
+            <div class="cat-sub">4–5 Seater · City Travel</div>
+          </div>
+          <div class="cat-card">
+            <div class="cat-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="32"
+                height="32"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.5 2.8c-.1.2-.1.3-.1.5v3.8c0 .6.4 1 1 1h2"
+                />
+                <circle cx="7" cy="17" r="2" />
+                <path d="M9 17h6" />
+                <circle cx="17" cy="17" r="2" />
+              </svg>
+            </div>
+            <div class="cat-name">Sedan</div>
+            <div class="cat-sub">4–5 Seater · Comfortable</div>
+          </div>
+          <div class="cat-card">
+            <div class="cat-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="32"
+                height="32"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="M2 16h20v-4l-3-5H8L4 11v5Z" />
+                <path d="M8 7v5h11" />
+                <path d="M5 11h3" />
+                <circle cx="6.5" cy="17.5" r="2.5" />
+                <circle cx="17.5" cy="17.5" r="2.5" />
+              </svg>
+            </div>
+            <div class="cat-name">SUV</div>
+            <div class="cat-sub">6–7 Seater · Family Travel</div>
+          </div>
+          <div class="cat-card">
+            <div class="cat-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="32"
+                height="32"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="M8 6v6" />
+                <path d="M15 6v6" />
+                <path d="M2 12h19.6" />
+                <path
+                  d="M18 18h3s.5-1.7.8-2.8c.1-.4.2-.8.2-1.2 0-.4-.1-.8-.2-1.2l-1.4-5C20.1 6.8 19.1 6 18 6H4a2 2 0 0 0-2 2v10h3"
+                />
+                <circle cx="7" cy="18" r="2" />
+                <path d="M9 18h5" />
+                <circle cx="16" cy="18" r="2" />
+              </svg>
+            </div>
+            <div class="cat-name">Tempo Traveller</div>
+            <div class="cat-sub">12–17 Seater · Group Tours</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================
+     FEATURED CARS
+======================== -->
+    <section id="featured-cars">
+      <div class="container">
+        <div class="section-header">
+          <div class="accent-line"></div>
+          <h2 class="section-title">Featured Cars</h2>
+          <p class="section-subtitle">Popular vehicles available for rent</p>
+        </div>
+
+        <div class="cars-grid">
+          <!-- Car 1: Swift Dzire -->
+          <div class="car-card">
+            <div class="car-img-wrap">
+              <img
+                src="assets/images/cars/dzire.png"
+                alt="Swift Dzire"
+                loading="lazy"
+              />
+              <span class="car-badge">Sedan</span>
+            </div>
+            <div class="car-info">
+              <div class="car-name">Swift Dzire</div>
+              <div class="car-meta">
+                <span
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="14"
+                    height="14"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    style="vertical-align: middle; margin-right: 4px"
+                  >
+                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                    <circle cx="9" cy="7" r="4" />
+                    <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+                    <path d="M16 3.13a4 4 0 0 1 0 7.75" /></svg
+                  >4+1 Seater</span
+                >
+                <span
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="14"
+                    height="14"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    style="vertical-align: middle; margin-right: 4px"
+                  >
+                    <path d="M2 12h20" />
+                    <path d="M2 12a10 10 0 0 1 20 0" />
+                    <path d="M2 12a10 10 0 0 0 20 0" />
+                    <path d="M12 2v20" /></svg
+                  >AC</span
+                >
+                <span
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="14"
+                    height="14"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    style="vertical-align: middle; margin-right: 4px"
+                  >
+                    <path d="M3.27 6.96L12 12.01l8.73-5.05" />
+                    <path d="M12 22.08V12" /></svg
+                  >Petrol / CNG</span
+                >
+              </div>
+              <div class="car-actions">
+                <a href="tel:+7029884993" class="btn btn-primary"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="14"
+                    height="14"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    style="vertical-align: middle; margin-right: 4px"
+                  >
+                    <path
+                      d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"
+                    /></svg
+                  >Call</a
+                >
+                <a href="https://wa.me/7029884993" class="btn btn-whatsapp"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="14"
+                    height="14"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    style="vertical-align: middle; margin-right: 4px"
+                  >
+                    <path
+                      d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"
+                    /></svg
+                  >WhatsApp</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Car 2: WagonR -->
+          <div class="car-card">
+            <div class="car-img-wrap">
+              <img
+                src="assets/images/cars/wagonr.png"
+                alt="Wagon R"
+                loading="lazy"
+              />
+              <span class="car-badge">Hatchback</span>
+            </div>
+            <div class="car-info">
+              <div class="car-name">Wagon R</div>
+              <div class="car-meta">
+                <span
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="14"
+                    height="14"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    style="vertical-align: middle; margin-right: 4px"
+                  >
+                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                    <circle cx="9" cy="7" r="4" />
+                    <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+                    <path d="M16 3.13a4 4 0 0 1 0 7.75" /></svg
+                  >4+1 Seater</span
+                >
+                <span
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="14"
+                    height="14"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    style="vertical-align: middle; margin-right: 4px"
+                  >
+                    <path d="M2 12h20" />
+                    <path d="M2 12a10 10 0 0 1 20 0" />
+                    <path d="M2 12a10 10 0 0 0 20 0" />
+                    <path d="M12 2v20" /></svg
+                  >AC</span
+                >
+                <span
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="14"
+                    height="14"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    style="vertical-align: middle; margin-right: 4px"
+                  >
+                    <path d="M3.27 6.96L12 12.01l8.73-5.05" />
+                    <path d="M12 22.08V12" /></svg
+                  >Petrol / CNG</span
+                >
+              </div>
+              <div class="car-actions">
+                <a href="tel:+7029884993" class="btn btn-primary"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="14"
+                    height="14"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    style="vertical-align: middle; margin-right: 4px"
+                  >
+                    <path
+                      d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"
+                    /></svg
+                  >Call</a
+                >
+                <a href="https://wa.me/7029884993" class="btn btn-whatsapp"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="14"
+                    height="14"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    style="vertical-align: middle; margin-right: 4px"
+                  >
+                    <path
+                      d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"
+                    /></svg
+                  >WhatsApp</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Car 3: Innova -->
+          <div class="car-card">
+            <div class="car-img-wrap">
+              <img
+                src="assets/images/cars/innova.png"
+                alt="Innova"
+                loading="lazy"
+              />
+              <span class="car-badge">SUV</span>
+            </div>
+            <div class="car-info">
+              <div class="car-name">Innova</div>
+              <div class="car-meta">
+                <span
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="14"
+                    height="14"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    style="vertical-align: middle; margin-right: 4px"
+                  >
+                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                    <circle cx="9" cy="7" r="4" />
+                    <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+                    <path d="M16 3.13a4 4 0 0 1 0 7.75" /></svg
+                  >6–7 Seater</span
+                >
+                <span
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="14"
+                    height="14"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    style="vertical-align: middle; margin-right: 4px"
+                  >
+                    <path d="M2 12h20" />
+                    <path d="M2 12a10 10 0 0 1 20 0" />
+                    <path d="M2 12a10 10 0 0 0 20 0" />
+                    <path d="M12 2v20" /></svg
+                  >AC</span
+                >
+                <span
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="14"
+                    height="14"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    style="vertical-align: middle; margin-right: 4px"
+                  >
+                    <path d="M3.27 6.96L12 12.01l8.73-5.05" />
+                    <path d="M12 22.08V12" /></svg
+                  >Diesel</span
+                >
+              </div>
+              <div class="car-actions">
+                <a href="tel:+7029884993" class="btn btn-primary"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="14"
+                    height="14"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    style="vertical-align: middle; margin-right: 4px"
+                  >
+                    <path
+                      d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"
+                    /></svg
+                  >Call</a
+                >
+                <a href="https://wa.me/7029884993" class="btn btn-whatsapp"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="14"
+                    height="14"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    style="vertical-align: middle; margin-right: 4px"
+                  >
+                    <path
+                      d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"
+                    /></svg
+                  >WhatsApp</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Car 4: Swift -->
+          <div class="car-card">
+            <div class="car-img-wrap">
+              <img
+                src="assets/images/cars/swift.png"
+                alt="Swift"
+                loading="lazy"
+              />
+              <span class="car-badge">Hatchback</span>
+            </div>
+            <div class="car-info">
+              <div class="car-name">Swift</div>
+              <div class="car-meta">
+                <span
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="14"
+                    height="14"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    style="vertical-align: middle; margin-right: 4px"
+                  >
+                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                    <circle cx="9" cy="7" r="4" />
+                    <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+                    <path d="M16 3.13a4 4 0 0 1 0 7.75" /></svg
+                  >4+1 Seater</span
+                >
+                <span
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="14"
+                    height="14"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    style="vertical-align: middle; margin-right: 4px"
+                  >
+                    <path d="M2 12h20" />
+                    <path d="M2 12a10 10 0 0 1 20 0" />
+                    <path d="M2 12a10 10 0 0 0 20 0" />
+                    <path d="M12 2v20" /></svg
+                  >AC</span
+                >
+                <span
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="14"
+                    height="14"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    style="vertical-align: middle; margin-right: 4px"
+                  >
+                    <path d="M3.27 6.96L12 12.01l8.73-5.05" />
+                    <path d="M12 22.08V12" /></svg
+                  >Petrol</span
+                >
+              </div>
+              <div class="car-actions">
+                <a href="tel:+7029884993" class="btn btn-primary"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="14"
+                    height="14"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    style="vertical-align: middle; margin-right: 4px"
+                  >
+                    <path
+                      d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"
+                    /></svg
+                  >Call</a
+                >
+                <a href="https://wa.me/7029884993" class="btn btn-whatsapp"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="14"
+                    height="14"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    style="vertical-align: middle; margin-right: 4px"
+                  >
+                    <path
+                      d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"
+                    /></svg
+                  >WhatsApp</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Car 5: Bolero -->
+          <div class="car-card">
+            <div class="car-img-wrap">
+              <img
+                src="assets/images/cars/bolero.png"
+                alt="Bolero"
+                loading="lazy"
+              />
+              <span class="car-badge">SUV</span>
+            </div>
+            <div class="car-info">
+              <div class="car-name">Mahindra Bolero</div>
+              <div class="car-meta">
+                <span
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="14"
+                    height="14"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    style="vertical-align: middle; margin-right: 4px"
+                  >
+                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                    <circle cx="9" cy="7" r="4" />
+                    <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+                    <path d="M16 3.13a4 4 0 0 1 0 7.75" /></svg
+                  >7–9 Seater</span
+                >
+                <span
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="14"
+                    height="14"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    style="vertical-align: middle; margin-right: 4px"
+                  >
+                    <path d="M2 12h20" />
+                    <path d="M2 12a10 10 0 0 1 20 0" />
+                    <path d="M2 12a10 10 0 0 0 20 0" />
+                    <path d="M12 2v20" /></svg
+                  >AC</span
+                >
+                <span
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="14"
+                    height="14"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    style="vertical-align: middle; margin-right: 4px"
+                  >
+                    <path d="M3.27 6.96L12 12.01l8.73-5.05" />
+                    <path d="M12 22.08V12" /></svg
+                  >Diesel</span
+                >
+              </div>
+              <div class="car-actions">
+                <a href="tel:+7029884993" class="btn btn-primary"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="14"
+                    height="14"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    style="vertical-align: middle; margin-right: 4px"
+                  >
+                    <path
+                      d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"
+                    /></svg
+                  >Call</a
+                >
+                <a href="https://wa.me/7029884993" class="btn btn-whatsapp"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="14"
+                    height="14"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    style="vertical-align: middle; margin-right: 4px"
+                  >
+                    <path
+                      d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"
+                    /></svg
+                  >WhatsApp</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- View All Card -->
+          <div
+            class="car-card"
+            style="
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              flex-direction: column;
+              gap: 14px;
+              min-height: 260px;
+              background: var(--section-alt);
+              cursor: default;
+            "
+          >
+            <div style="font-size: 2.5rem">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="48"
+                height="48"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9L18 10l-2-4H6L4 10l-2.5 1.1C.7 11.3 0 12.1 0 13v3c0 .6.4 1 1 1h2"
+                />
+                <circle cx="7" cy="17" r="2" />
+                <circle cx="17" cy="17" r="2" />
+              </svg>
+            </div>
+            <p
+              style="
+                font-weight: 600;
+                color: var(--mid);
+                text-align: center;
+                font-size: 0.9rem;
+              "
+            >
+              More cars available
+            </p>
+            <a href="./pages/cars.html" class="btn btn-outline"
+              >View All Cars →</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================
+     HOTEL SHOWCASE
+======================== -->
+    <section id="hotels">
+      <div class="container">
+        <div class="section-header">
+          <div class="accent-line"></div>
+          <h2 class="section-title">Hotel Recommendations</h2>
+          <p class="section-subtitle">
+            Handpicked stays for a comfortable journey
+          </p>
+        </div>
+
+        <div class="hotels-grid">
+          <div class="hotel-card">
+            <div class="hotel-img-wrap">
+              <img
+                src="assets/images/hotels/udaan.png"
+                alt="Hotel Udaan Darjeeling"
+                loading="lazy"
+              />
+              <div class="hotel-stars">★★★ Standard</div>
+            </div>
+            <div class="hotel-info">
+              <div class="hotel-name">Hotel Udaan Darjeeling</div>
+              <div class="hotel-loc">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="14"
+                  height="14"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  style="vertical-align: middle; margin-right: 4px"
+                >
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                  <circle cx="12" cy="10" r="3" /></svg
+                >Darjeeling, West Bengal
+              </div>
+              <div class="hotel-desc">
+                A comfortable mid-range hotel suitable for budget-conscious
+                travelers looking for clean rooms and convenient location.
+              </div>
+              <div class="hotel-actions">
+                <a href="tel:+7029884993" class="btn btn-primary"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="14"
+                    height="14"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    style="vertical-align: middle; margin-right: 4px"
+                  >
+                    <path
+                      d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"
+                    /></svg
+                  >Enquire</a
+                >
+                <a href="https://wa.me/7029884993" class="btn btn-whatsapp"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="14"
+                    height="14"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    style="vertical-align: middle; margin-right: 4px"
+                  >
+                    <path
+                      d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"
+                    /></svg
+                  >WhatsApp</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="hotel-card">
+            <div class="hotel-img-wrap">
+              <img
+                src="assets/images/hotels/lemon-tree.png"
+                alt="Hotel Lemon Tree Siliguri"
+                loading="lazy"
+              />
+              <div class="hotel-stars">★★★★ Deluxe</div>
+            </div>
+            <div class="hotel-info">
+              <div class="hotel-name">Hotel Lemon Tree Siliguri</div>
+              <div class="hotel-loc">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="14"
+                  height="14"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  style="vertical-align: middle; margin-right: 4px"
+                >
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                  <circle cx="12" cy="10" r="3" /></svg
+                >Siliguri, West Bengal
+              </div>
+              <div class="hotel-desc">
+                A modern city hotel known for clean rooms, professional service,
+                and convenient access to major transport hubs and shopping
+                areas.
+              </div>
+              <div class="hotel-actions">
+                <a href="tel:+7029884993" class="btn btn-primary"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="14"
+                    height="14"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    style="vertical-align: middle; margin-right: 4px"
+                  >
+                    <path
+                      d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"
+                    /></svg
+                  >Enquire</a
+                >
+                <a href="https://wa.me/7029884993" class="btn btn-whatsapp"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="14"
+                    height="14"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    style="vertical-align: middle; margin-right: 4px"
+                  >
+                    <path
+                      d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"
+                    /></svg
+                  >WhatsApp</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="hotel-card">
+            <div class="hotel-img-wrap">
+              <img
+                src="assets/images/hotels/sumitel-darjeeling.png"
+                alt="Sumitel Darjeeling"
+                loading="lazy"
+              />
+              <div class="hotel-stars">★★★★ Deluxe</div>
+            </div>
+            <div class="hotel-info">
+              <div class="hotel-name">Sumitel Darjeeling</div>
+              <div class="hotel-loc">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="14"
+                  height="14"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  style="vertical-align: middle; margin-right: 4px"
+                >
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                  <circle cx="12" cy="10" r="3" /></svg
+                >Darjeeling, West Bengal
+              </div>
+              <div class="hotel-desc">
+                A popular hillside hotel offering comfortable accommodation with
+                scenic views and easy access to local sightseeing attractions.
+              </div>
+              <div class="hotel-actions">
+                <a href="tel:+7029884993" class="btn btn-primary"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="14"
+                    height="14"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    style="vertical-align: middle; margin-right: 4px"
+                  >
+                    <path
+                      d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"
+                    /></svg
+                  >Enquire</a
+                >
+                <a href="https://wa.me/7029884993" class="btn btn-whatsapp"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="14"
+                    height="14"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    style="vertical-align: middle; margin-right: 4px"
+                  >
+                    <path
+                      d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"
+                    /></svg
+                  >WhatsApp</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 32px">
+          <a href="./pages/hotels.html" class="btn btn-outline"
+            >View All Hotels →</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================
+     SERVICES PREVIEW
+======================== -->
+    <section id="services">
+      <div class="container">
+        <div class="section-header">
+          <div class="accent-line"></div>
+          <h2 class="section-title">Our Services</h2>
+          <p class="section-subtitle">Everything you need for a smooth trip</p>
+        </div>
+
+        <div class="services-grid">
+          <div class="service-card">
+            <div class="service-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="32"
+                height="32"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <circle cx="12" cy="12" r="10" />
+                <line x1="2" y1="12" x2="22" y2="12" />
+                <path
+                  d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"
+                />
+              </svg>
+            </div>
+            <div class="service-title">Local Car Rental</div>
+            <div class="service-desc">
+              Affordable hourly and daily car rentals for local travel within
+              the city.
+            </div>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="32"
+                height="32"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <polygon points="3 11 22 2 13 21 11 13 3 11" />
+              </svg>
+            </div>
+            <div class="service-title">Outstation Travel</div>
+            <div class="service-desc">
+              Comfortable long-distance trips to any destination with
+              experienced drivers.
+            </div>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="32"
+                height="32"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="M22 2L11 13" />
+                <path d="M22 2l-7 20-4-9-9-4 20-7z" />
+              </svg>
+            </div>
+            <div class="service-title">Airport Pickup</div>
+            <div class="service-desc">
+              Timely and reliable airport drop & pickup service for all flights.
+            </div>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="32"
+                height="32"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="M3 21h18" />
+                <path
+                  d="M3 7v1a3 3 0 0 0 6 0V7h4v1a3 3 0 0 0 6 0V7h4v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7z"
+                />
+              </svg>
+            </div>
+            <div class="service-title">Hotel Assistance</div>
+            <div class="service-desc">
+              We help you find the right hotel at the best price for your travel
+              dates.
+            </div>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="32"
+                height="32"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <polygon points="3 11 22 2 13 21 11 13 3 11" />
+                <line x1="12" y1="12" x2="12" y2="8" />
+                <line x1="12" y1="16" x2="12.01" y2="16" />
+              </svg>
+            </div>
+            <div class="service-title">Tour Packages</div>
+            <div class="service-desc">
+              Curated tour packages with car + hotel for popular destinations.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================
+     WHY CHOOSE US
+======================== -->
+    <section id="why-us">
+      <div class="container">
+        <div class="section-header">
+          <div class="accent-line"></div>
+          <h2 class="section-title">Why Choose YatraWheels?</h2>
+          <p class="section-subtitle">Trusted by hundreds of happy travelers</p>
+        </div>
+
+        <div class="why-grid">
+          <div class="why-card">
+            <div class="why-num">01</div>
+            <div class="why-title">Well-Maintained Vehicles</div>
+            <div class="why-desc">
+              All our cars are regularly serviced and kept in top condition for
+              your safety and comfort.
+            </div>
+          </div>
+          <div class="why-card">
+            <div class="why-num">02</div>
+            <div class="why-title">Experienced Drivers</div>
+            <div class="why-desc">
+              Our drivers are trained, verified, and have excellent knowledge of
+              local and outstation routes.
+            </div>
+          </div>
+          <div class="why-card">
+            <div class="why-num">03</div>
+            <div class="why-title">Transparent Pricing</div>
+            <div class="why-desc">
+              No hidden charges. What you see is what you pay. Clear and honest
+              pricing always.
+            </div>
+          </div>
+          <div class="why-card">
+            <div class="why-num">04</div>
+            <div class="why-title">24/7 Support</div>
+            <div class="why-desc">
+              Round the clock customer support via phone and WhatsApp. We are
+              always there when you need us.
+            </div>
+          </div>
+          <div class="why-card">
+            <div class="why-num">05</div>
+            <div class="why-title">Flexible Booking</div>
+            <div class="why-desc">
+              Easy booking through a simple phone call or WhatsApp message. No
+              complex online forms needed.
+            </div>
+          </div>
+          <div class="why-card">
+            <div class="why-num">06</div>
+            <div class="why-title">Local Expertise</div>
+            <div class="why-desc">
+              Years of experience serving local customers. We know this region
+              better than anyone else.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================
+     GALLERY PREVIEW
+======================== -->
+    <section id="gallery">
+      <div class="container">
+        <div class="section-header">
+          <div class="accent-line"></div>
+          <h2 class="section-title">Photo Gallery</h2>
+          <p class="section-subtitle">Our cars, hotels, and happy journeys</p>
+        </div>
+
+        <div class="gallery-grid">
+          <div class="gallery-item">
+            <img
+              src="assets/images/cars/innova.png"
+              alt="Toyota Innova — Outstation Trip"
+              loading="lazy"
+            />
+            <div class="gallery-overlay"><span>Family Road Trip</span></div>
+          </div>
+          <div class="gallery-item">
+            <img
+              src="assets/images/cars/dzire.png"
+              alt="Swift Dzire — Local Ride"
+              loading="lazy"
+            />
+            <div class="gallery-overlay"><span>City Ride</span></div>
+          </div>
+          <div class="gallery-item">
+            <img
+              src="assets/images/cars/tempo-traveller.png"
+              alt="Tempo Traveller — Group Travel"
+              loading="lazy"
+            />
+            <div class="gallery-overlay"><span>Hotel Stay</span></div>
+          </div>
+          <div class="gallery-item">
+            <img
+              src="assets/images/hotels/lemon-tree.png"
+              alt="Lemon Tree Hotel — Darjeeling"
+              loading="lazy"
+            />
+            <div class="gallery-overlay"><span>Darjeeling Tour</span></div>
+          </div>
+          <div class="gallery-item">
+            <img
+              src="assets/images/hotels/ramada.png"
+              alt="Ramada Hotel — Gangtok"
+              loading="lazy"
+            />
+            <div class="gallery-overlay"><span>Group Outing</span></div>
+          </div>
+          <div class="gallery-item">
+            <img
+              src="https://placehold.co/300x200/E8E8C8/7A7A4A?text=Beach+Hotel"
+              alt="Beach Hotel"
+              loading="lazy"
+            />
+            <div class="gallery-overlay"><span>Digha Hotel</span></div>
+          </div>
+        </div>
+
+        <div class="gallery-cta">
+          <a href="./pages/gallery.html" class="btn btn-outline"
+            >View Full Gallery →</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================
+     CONTACT PREVIEW
+======================== -->
+    <section id="contact">
+      <div class="container">
+        <div class="section-header">
+          <div class="accent-line"></div>
+          <h2 class="section-title">Plan Your Trip With Us</h2>
+          <p class="section-subtitle">
+            Tell us your travel details and we'll arrange everything
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Left: Info & Map -->
+          <div class="contact-info">
+            <div class="contact-info-item">
+              <div class="contact-icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path
+                    d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"
+                  />
+                </svg>
+              </div>
+              <div>
+                <div class="contact-label">Call Us</div>
+                <div class="contact-value">+91 70298 84993</div>
+              </div>
+            </div>
+
+            <div class="contact-info-item">
+              <div class="contact-icon" style="background: #25d366">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path
+                    d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"
+                  />
+                </svg>
+              </div>
+              <div>
+                <div class="contact-label">WhatsApp</div>
+                <div class="contact-value">+91 70298 84993</div>
+              </div>
+            </div>
+
+            <div class="contact-info-item">
+              <div class="contact-icon" style="background: var(--charcoal)">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                  <circle cx="12" cy="10" r="3" />
+                </svg>
+              </div>
+              <div>
+                <div class="contact-label">Address</div>
+                <div class="contact-value">
+                  Dabgram, Siliguri, West Bengal 734006
+                </div>
+              </div>
+            </div>
+
+            <div class="contact-actions">
+              <a href="tel:+7029884993" class="btn btn-primary"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="14"
+                  height="14"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  style="vertical-align: middle; margin-right: 4px"
+                >
+                  <path
+                    d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"
+                  /></svg
+                >Call Now</a
+              >
+              <a href="https://wa.me/7029884993" class="btn btn-whatsapp"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="14"
+                  height="14"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  style="vertical-align: middle; margin-right: 4px"
+                >
+                  <path
+                    d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"
+                  /></svg
+                >WhatsApp</a
+              >
+            </div>
+
+            <div class="map-placeholder">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d235527.45482336812!2d88.18525413295652!3d22.535564939439184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f882db4908f667%3A0x43e330e68f6c2cbc!2sKolkata%2C%20West%20Bengal!5e0!3m2!1sen!2sin!4v1699000000000!5m2!1sen!2sin"
+                width="100%"
+                height="250"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                title="YatraWheels Location Map"
+              ></iframe>
+            </div>
+          </div>
+
+          <!-- Right: Form -->
+          <form id="homeContactForm" class="contact-form" novalidate>
+            <div class="form-title">Send Us a Message</div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder=" "
+                  required
+                  autocomplete="name"
+                />
+                <label for="name">Your Name</label>
+              </div>
+              <div class="form-group">
+                <input
+                  type="tel"
+                  id="phone"
+                  name="phone"
+                  placeholder=" "
+                  required
+                  autocomplete="tel"
+                />
+                <label for="phone">Phone Number</label>
+              </div>
+            </div>
+
+            <div class="form-group form-group-select">
+              <select id="service" name="service" required>
+                <option value="" disabled selected></option>
+                <option>Local Car Rental</option>
+                <option>Outstation Travel</option>
+                <option>Airport Pickup/Drop</option>
+                <option>Tempo Traveller</option>
+                <option>Hotel Assistance</option>
+                <option>Tour Package</option>
+              </select>
+              <label for="service">Service Required</label>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <input
+                  type="date"
+                  id="date"
+                  name="date"
+                  placeholder=" "
+                  required
+                />
+                <label for="date">Travel Date</label>
+              </div>
+              <div class="form-group">
+                <input
+                  type="number"
+                  id="passengers"
+                  name="passengers"
+                  placeholder=" "
+                  min="1"
+                  required
+                />
+                <label for="passengers">No. of Passengers</label>
+              </div>
+            </div>
+
+            <div class="form-group form-group-message">
+              <textarea
+                id="message"
+                name="message"
+                placeholder=" "
+                rows="5"
+                required
+              ></textarea>
+              <label for="message">Message</label>
+            </div>
+
+            <button type="submit" class="btn btn-primary form-submit">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                style="vertical-align: middle; margin-right: 6px"
+              >
+                <line x1="22" y1="2" x2="11" y2="13" />
+                <polygon points="22 2 15 22 11 13 2 9 22 2" /></svg
+              >Send Enquiry
+            </button>
+
+            <div
+              id="homeFormSuccess"
+              class="form-success"
+              style="display: none"
+            >
+              <svg
+                stroke="currentColor"
+                fill="none"
+                stroke-width="2"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+              >
+                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+                <polyline points="22 4 12 14.01 9 11.01" />
+              </svg>
+              <span>Thank you! Your enquiry has been sent successfully.</span>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================
+     FOOTER
+======================== -->
+    <footer id="footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div>
+            <div class="logo footer-logo-wrap" style="margin-bottom: 14px">
+              <img
+                src="assets/images/logo/logo.png"
+                alt="Website Logo"
+                class="logo-img"
+              />
+            </div>
+            <p class="footer-tagline">
+              Your trusted travel partner for local and outstation journeys
+              across India. Affordable cars, experienced drivers, handpicked
+              hotels.
+            </p>
+            <div class="footer-social">
+              <a href="#" title="Facebook"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path
+                    d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"
+                  /></svg
+              ></a>
+              <a href="#" title="Instagram"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                  <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" /></svg
+              ></a>
+              <a href="#" title="YouTube"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path
+                    d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"
+                  />
+                  <polygon
+                    points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"
+                  /></svg
+              ></a>
+              <a href="https://wa.me/7029884993" title="WhatsApp"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path
+                    d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"
+                  /></svg
+              ></a>
+            </div>
+          </div>
+
+          <div>
+            <div class="footer-col-title">Quick Links</div>
+            <ul class="footer-links">
+              <li><a href="#">Home</a></li>
+              <li><a href="pages/about.html">About Us</a></li>
+              <li><a href="pages/cars.html">Our Cars</a></li>
+              <li><a href="pages/hotels.html">Hotels</a></li>
+              <li><a href="pages/services.html">Services</a></li>
+              <li><a href="pages/gallery.html">Gallery</a></li>
+              <li><a href="pages/contact.html">Contact</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="footer-col-title">Our Services</div>
+            <ul class="footer-links">
+              <li><a href="#">Local Car Rental</a></li>
+              <li><a href="#">Outstation Travel</a></li>
+              <li><a href="#">Airport Pickup</a></li>
+              <li><a href="#">Tempo Traveller</a></li>
+              <li><a href="#">Hotel Assistance</a></li>
+              <li><a href="#">Tour Packages</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="footer-col-title">Contact</div>
+            <ul class="footer-links">
+              <li>
+                <a href="tel:+7029884993"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="14"
+                    height="14"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    style="vertical-align: middle; margin-right: 6px"
+                  >
+                    <path
+                      d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"
+                    /></svg
+                  >+91 70298 84993</a
+                >
+              </li>
+              <li>
+                <a href="https://wa.me/7029884993"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="14"
+                    height="14"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    style="vertical-align: middle; margin-right: 6px"
+                  >
+                    <path
+                      d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"
+                    /></svg
+                  >WhatsApp Us</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="14"
+                    height="14"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    style="vertical-align: middle; margin-right: 6px"
+                  >
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                    <circle cx="12" cy="10" r="3" /></svg
+                  >Dabgram, Siliguri, West Bengal 734006</a
+                >
+              </li>
+              <li>
+                <a href="mailto:deyd983@gmail.com"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="14"
+                    height="14"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    style="vertical-align: middle; margin-right: 6px"
+                  >
+                    <path
+                      d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+                    />
+                    <polyline points="22,6 12,13 2,6" /></svg
+                  >deyd983@gmail.com</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <div>© 2026 <span>YatraWheels</span>. All rights reserved.</div>
+          <div>
+            Made with
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="14"
+              height="14"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              style="vertical-align: middle"
+            >
+              <path
+                d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"
+              />
+            </svg>
+            for Indian travelers
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- ========================
+     FLOATING BUTTONS
+======================= -->
+    <a
+      href="https://wa.me/7029884993"
+      class="float-btn float-whatsapp"
+      title="WhatsApp Us"
+      target="_blank"
+      rel="noopener"
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="22"
+        height="22"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+        <path
+          d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"
+        />
+      </svg>
+      <span class="tooltip">WhatsApp Us</span>
+    </a>
+
+    <a href="tel:+7029884993" class="float-btn float-call" title="Call Now">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="22"
+        height="22"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+        <path
+          d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"
+        />
+      </svg>
+      <span class="tooltip">Call Now</span>
+    </a>
+
+    <!-- Scroll to Top -->
+    <button
+      id="scrollTop"
+      title="Back to top"
+      onclick="window.scrollTo({ top: 0, behavior: 'smooth' })"
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="20"
+        height="20"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+        <polyline points="18 15 12 9 6 15" />
+      </svg>
+    </button>
+
+    <!-- ========================
+     JAVASCRIPT
+======================== -->
+    <script src="assets/js/global.js"></script>
+    <script src="assets/js/home.js"></script>
+  </body>
+</html>
