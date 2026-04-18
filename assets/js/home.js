@@ -226,12 +226,27 @@ document.addEventListener("DOMContentLoaded", function () {
             }, 5000);
           })
           .catch(function (error) {
-            alert("Failed to send enquiry. Please try again.");
+            console.error("EmailJS Error:", error);
+
+            let errorMessage = "Something went wrong. Please try again.";
+
+            if (error && error.text) {
+              if (
+                error.text.toLowerCase().includes("quota") ||
+                error.text.toLowerCase().includes("limit") ||
+                error.text.toLowerCase().includes("exceeded")
+              ) {
+                errorMessage =
+                  "⚠️ Our enquiry limit has been reached for this month. Please call or WhatsApp us directly.";
+              }
+            }
+
+            alert(errorMessage);
 
             submitBtn.disabled = false;
 
             submitBtn.innerHTML = `
-    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle; margin-right: 6px">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
       <line x1="22" y1="2" x2="11" y2="13"/>
       <polygon points="22 2 15 22 11 13 2 9 22 2"/>
     </svg>

@@ -131,7 +131,22 @@ document.addEventListener("DOMContentLoaded", function () {
             }, 5000);
           })
           .catch(function (error) {
-            alert("Failed to send message. Please try again.");
+            console.error("EmailJS Error:", error);
+
+            let errorMessage = "Something went wrong. Please try again.";
+
+            if (error && error.text) {
+              if (
+                error.text.toLowerCase().includes("quota") ||
+                error.text.toLowerCase().includes("limit") ||
+                error.text.toLowerCase().includes("exceeded")
+              ) {
+                errorMessage =
+                  "⚠️ Our message limit has been reached for this month. Please call or WhatsApp us directly.";
+              }
+            }
+
+            alert(errorMessage);
 
             contactForm.querySelector(".submit-btn").disabled = false;
 
